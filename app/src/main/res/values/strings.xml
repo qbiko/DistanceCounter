@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">DistanceCounter</string>
+    <string name="enter_two_points">Podaj współrzędne geograficzne dwóch punktów dla których chcesz obliczyć odległość</string>
+    <string name="count">Oblicz</string>
+    <string name="longitude">Długość geograficzna</string>
+    <string name="latitude">Szerokość geograficzna</string>
+    <string name="first_point">Punkt pierwszy</string>
+    <string name="second_point">Punkt drugi</string>
+    <string name="distance_between_two_points">Dystans, pomiędzy dwoma punktami, do pokanania samochodem wynosi:</string>
+    <string name="distance_km">%.2f km</string>
+    <string name="distance_m">%.2f m</string>
+    <string name="error_downloading_distance_between_two_points">Nie udało się pobrać odległości pomiędzy dwoma punktami :(\n\nSprawdź połączenie internetowe</string>
+    <string name="loading">"Ładowanie..."</string>
+    <string name="error_lat_long">Niepoprawne dane</string>
+</resources>
