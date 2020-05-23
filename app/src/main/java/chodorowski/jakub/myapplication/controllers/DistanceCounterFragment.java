@@ -108,7 +108,7 @@ public class DistanceCounterFragment extends Fragment {
     private boolean validateLat(String text) {
         try {
             double lat = Double.parseDouble(text);
-            return lat < -90 || lat > 90;
+            return !(lat < -90 || lat > 90);
         }
         catch(NumberFormatException ex) {
             return false;
@@ -118,7 +118,7 @@ public class DistanceCounterFragment extends Fragment {
     private boolean validateLong(String text) {
         try {
             double lng = Double.parseDouble(text);
-            return lng < -180 || lng > 180;
+            return !(lng < -180 || lng > 180);
         }
         catch(NumberFormatException ex) {
             return false;

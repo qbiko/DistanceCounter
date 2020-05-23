@@ -6,7 +6,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class BingMapsClient {
 
     private static Retrofit retrofit;
-    private static final String BASE_URL = "http://dev.virtualearth.net/REST/V1/";
+    private static final String BASE_URL = "https://dev.virtualearth.net/REST/V1/";
 
     public static Retrofit getRetrofitInstance() {
         if(retrofit == null) {
